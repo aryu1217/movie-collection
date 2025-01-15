@@ -1,0 +1,30 @@
+.search-box-container {
+  display: flex;
+  align-items: center; /* 세로축 중앙 정렬 */
+  justify-content: center; /* 버튼과 검색창의 기본 위치 */
+  gap: 10px; /* 검색창과 버튼 간격 */
+  width: 100%; /* 필요에 따라 컨테이너 크기 조정 */
+}
+
+.search-box {
+  border-style: solid;
+  border-color: #303030;
+  border-radius: 20px;
+  border-width: 2px;
+  width: 28%;
+  height: 38px;
+  background-color: #0f0f0f;
+  color: #fff;
+  padding: 0px 15px;
+}
+
+.search-button {
+  background-color: #0f0f0f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: -50px;
+  margin-top: 5px;
+}
