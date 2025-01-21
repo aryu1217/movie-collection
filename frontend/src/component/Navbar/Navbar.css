@@ -3,3 +3,13 @@
   display: flex;
   margin-top: 10px;
 }
+
+.user-loginStatus {
+  display: inline-block; /* 텍스트가 한 줄에 표시되도록 설정 */
+  white-space: nowrap; /* 강제 줄 바꿈 방지 */
+  font-size: 16px; /* 폰트 크기를 조정 */
+  line-height: 1; /* 줄 간격을 조정 */
+  margin-right: 20px;
+  margin-top: -5px;
+  cursor: pointer;
+}

@@ -3,3 +3,11 @@ body {
   color: #ffffff;
   text-align: center;
 }
+
+.page-container {
+  display: flex; /* Flexbox 활성화 */
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  height: 100vh; /* 화면 전체 높이 */
+  margin-top: -170px;
+}
